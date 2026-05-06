@@ -68,20 +68,34 @@
 
 
 
+            <div class="pst_absolute w_100 hpx_200" id="play" style=" top: 12%; "></div>
+
+
+
             
 
 
 
-            <!--<div class="pst_absolute w_100" style="top: 7%">
+            <div class="pst_absolute w_100" style="top: 50.5%">
                 <center>
                     <div class="text-center m_0">
                         <div id="countdown" class="color_white fspx_20 font_lo"></div>
                     </div><br>
                 </center>
             </div>
+
+
+
+            
+            <a class="pst_absolute w_100 hpx_150 d_block" style=" bottom: 31%;  "
+            href="https://maps.app.goo.gl/Z79R2tSPxgTXPNW88" target="_blank"></a>
+            
+          
             
             
-            <div class="pst_absolute w_100" style="bottom: 34%">
+            
+            
+            <div class="pst_absolute w_100" style="bottom: 16%">
 
                 <div class="pst_absolute" style="width: 519px; height: 439.624px; margin-left: 0px; margin-top: 0px;">
                    <svg class="_7KaXww">
@@ -97,6 +111,7 @@
                             
                                 <div class="swiper">
                                     <div class="swiper-wrapper">
+                                        
                                         <div class="swiper-slide">
                                             <img src="f1.jpg" style="width: 340.687px; height: 255.515px; object-fit: cover;">
                                         </div>
@@ -108,6 +123,18 @@
                                         </div>
                                         <div class="swiper-slide">
                                             <img src="f4.jpg" style="width: 340.687px; height: 255.515px; object-fit: cover;">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="f5.jpg" style="width: 340.687px; height: 255.515px; object-fit: cover;">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="f6.jpg" style="width: 340.687px; height: 255.515px; object-fit: cover;">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="f7.jpg" style="width: 340.687px; height: 255.515px; object-fit: cover;">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="f8.jpg" style="width: 340.687px; height: 255.515px; object-fit: cover;">
                                         </div>
 
 
@@ -121,36 +148,27 @@
                 </div>
                 <div class="hpx_450"></div>
             </div>
-            
-            
-            <div class="pst_absolute w_100" style="height: 150px; bottom: 28%;">
-                <center class="h_100" style="display: flex;">
-                    <a class="w_50 h_100 d_block" href="https://maps.app.goo.gl/fjEwMsP4qpcXa4Ui8" target="_blank"></a>
-                    <a class="w_50 h_100 d_block" href="https://maps.app.goo.gl/zSe7PfYYWhS45rLZ8" target="_blank"></a>
-               </center>
-            </div>
 
-
-            <a class="pst_absolute w_100 hpx_150 d_block" style=" bottom: 3%;"
-            href="https://api.whatsapp.com/send?phone=+5215583878916&text=Hola,%20confirmo%20mi%20asistencia%20a%20tu%20evento" target="_blank"></a>
-            
-            
-            -->
-
-            
-
-    
         
+            
+
+
+            <a class="pst_absolute w_100 hpx_150 d_block" style=" bottom: 7%;  "
+            href="https://api.whatsapp.com/send?phone=+5219991487126&text=Hola,%20confirmo%20mi%20asistencia%20a%20tu%20evento" target="_blank"></a>
+            
+          
+
+        </div>  
 
   
-        <footer class="bd-footer">
-            <br>
-            <br>
-            <div class="container-fluid">
+        <footer class="bd-footer" style="background: #fcf6ed;">
+    
+
+            <div class="container-fluid" >
                 <div class="row align-items-center py-4 ">
     
                     <div class="col-12 text-center mb-3 mb-md-0 color_black">
-                       <p class="font_chewy mb-0 fs-6">© 2025 Todos los derechos reservados</p>
+                       <p class="font_chewy mb-0 fs-6" style="margin-top: 10px;">© 2025 Todos los derechos reservados</p>
                        <a href="https://invitadigitales.github.io/mx/" class="font_chewy mb-0 fs-6 no_link color_black">
                           <img src="net.svg"  class="footer-icon filter_black">
                           <span>invitadigitales.github.io/mx<span>
@@ -189,9 +207,10 @@
                 <li id="sound">
                     <img src="sound_mute.svg" class="wpx_35 cur_pointer">
                 </li>
-
             </ul>
         </div>
+
+
 
     </div>
 
@@ -231,8 +250,8 @@ audio.loop = true;
 audio.volume = 0.5;
 
 
-/*
-var targetDate = new Date("Jul 31, 2026 20:00:00").getTime();
+
+var targetDate = new Date("May 16, 2026 20:00:00").getTime();
 var countdownTimer = countdown(
     targetDate,
     function(ts) {
@@ -259,7 +278,7 @@ var countdownTimer = countdown(
     },
     countdown.DAYS | countdown.HOURS | countdown.MINUTES | countdown.SECONDS
 );
-*/
+
 
 
 
@@ -413,7 +432,7 @@ const swiper = new Swiper('.swiper', {
 
 document.getElementById("sello").addEventListener("click", function() {
 
-    //audio.play();
+    audio.play();
 
     $('body').css('overflow-y', 'auto');
     document.querySelector(".protector").style.display = "none";
@@ -421,9 +440,9 @@ document.getElementById("sello").addEventListener("click", function() {
     $('#sound').find('img').attr('src', 'sound.svg');
     muted = !muted;
 
-    //$(window).scrollTop(0);
+    $(window).scrollTop(0);
 });
-//$(window).scrollTop(0);
+$(window).scrollTop(0);
 
 
 
